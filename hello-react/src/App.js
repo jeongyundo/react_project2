@@ -4,17 +4,14 @@ import "./App.css";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter"
 import Say from "./Say";
+import EventPractice from "./EventPractice";
+import ValidationSample from "./ValidationSample";
 
 class App extends Component {
   render(){
-    const name = "리액트";
     return (
-    <fragment>
-      <div className="react">{name}</div>
-      <MyComponent favoriteNumber={1}>칠드런 리엑트</MyComponent>
-      <Counter></Counter>
-      <Say></Say>
-    </fragment>);
+       <ValidationSample></ValidationSample>
+    )
   }
 
   
